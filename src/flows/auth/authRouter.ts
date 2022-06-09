@@ -6,7 +6,7 @@ import { forgotPassword, login, logout, redeemForgotPassword, refresh, register,
 
 const router = Router();
 
-router.get('/login',
+router.post('/login',
     [
         check('email', INVALID_EMAIL).isEmail(),
         check('password', REQUIRED_FIELD).not().isEmpty(),
