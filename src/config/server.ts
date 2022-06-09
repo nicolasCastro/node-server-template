@@ -40,7 +40,7 @@ export class Server {
         this.app.use(express.static('public'));
         this.app.get('/forgot-password', function (req, res) {
             res.render('forgot-password', {
-                name: 'BooXchange',
+                name: 'Node Template',
                 title: 'Forgot password'
             });
         })

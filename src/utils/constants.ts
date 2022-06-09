@@ -17,4 +17,4 @@ export const LANG_HEADER = 'Accept-Language';
 export const IMAGES_EXTENSIONS = ['png', 'jpg', 'jpeg'];
 export const IMAGES_INVALID_EXTENSIONS = 'Invalid image extension';
 
-export const JWT_SCOPE_FORGOT_PASSWORD = 'bxc_reset_password';
+export const JWT_SCOPE_FORGOT_PASSWORD = 'scope_reset_password';

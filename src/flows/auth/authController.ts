@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { MSG_SUCCESS, SERVER_ERROR, JWT_SCOPE_FORGOT_PASSWORD, LANG_HEADER } from '../../utils/constants';
+import { MSG_SUCCESS, SERVER_ERROR, JWT_SCOPE_FORGOT_PASSWORD } from '../../utils/constants';
 import randomstring from "randomstring";
 import User from '../users/user';
 import bcrypt from 'bcryptjs';
@@ -119,7 +119,7 @@ export const testPush = async (request: Request, response: Response) => {
 
     const message = {
         notification: {
-            title: 'BooXchange',
+            title: 'Node Template',
             body: 'Testing push!'
         },
         token: fcm_token

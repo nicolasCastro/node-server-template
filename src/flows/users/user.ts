@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import database from "../../config/dbconnection";
 
-const User = database.define('bxc_users', {
+const User = database.define('users', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,

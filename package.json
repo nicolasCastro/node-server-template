@@ -1,7 +1,7 @@
 {
-  "name": "booxchange-backend",
+  "name": "node-template-backend",
   "version": "1.0.0",
-  "description": "BooXchange backend repository",
+  "description": "Node backend repository",
   "main": "dist/app.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/rabbit-soft/booxchange/booxchange-backend.git"
+    "url": "git+ssh://git@github.com:nicolasCastro/node-server-template.git"
   },
   "author": "Nicolas Castro",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/rabbit-soft/booxchange/booxchange-backend/issues"
+    "url": "https://github.com/nicolasCastro/node-server-template/issues"
   },
-  "homepage": "https://gitlab.com/rabbit-soft/booxchange/booxchange-backend#readme",
+  "homepage": "https://github.com/nicolasCastro/node-server-template#readme",
   "devDependencies": {
     "@types/express": "^4.16.1",
     "@types/nodemailer": "^6.4.4",

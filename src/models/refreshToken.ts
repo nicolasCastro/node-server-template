@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import database from "../config/dbconnection"
 
-const RefreshToken = database.define('bxc_refresh_tokens', {
+const RefreshToken = database.define('refresh_tokens', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,

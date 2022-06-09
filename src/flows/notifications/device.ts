@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import database from "../../config/dbconnection";
 
-const Device = database.define('bxc_user_devices', {
+const Device = database.define('user_devices', {
     id: {
         type: DataTypes.INTEGER
     },
