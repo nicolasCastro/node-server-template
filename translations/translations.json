@@ -1,0 +1,23 @@
+{
+    "\"Rabbit Apps\" <info@rabbit-apps.com>": {
+        "es": "\"Rabbit Apps\" <info@rabbit-apps.com>"
+    },
+    "Password help has arrived!": {
+        "es": "¡Ha llegado la ayuda para la contraseña!"
+    },
+    "en/forgot-password-email": {
+        "es": "es/forgot-password-email"
+    },
+    "Password changed successfully!": {
+        "es": "¡Contraseña cambiada con éxito!"
+    },
+    "en/reset-password-email": {
+        "es": "es/reset-password-email"
+    },
+    "Welcome!": {
+        "es": "¡Bienvenido!"
+    },
+    "en/register-welcome-email": {
+        "es": "es/register-welcome-email"
+    }
+}
